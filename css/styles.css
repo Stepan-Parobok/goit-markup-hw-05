@@ -561,4 +561,45 @@ header{
             0 1px 1px 0 rgba(46, 47, 66, 0.16),
             0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-       
+.modal-overlay {
+    background-color: rgba(46, 47, 66, 0.4);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    border-radius: 4px;
+    width: 408px;
+    height: 584px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+    background: #fcfcfc;
+    padding: 24px 24px 0 24px;
+    
+}
+
+.overlay-text{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        
+}
+.overlay-frm{
+    display: flex;
+    flex-direction: column;
+}
+.overlay-frm .close{
+    border-radius: 100%;
+    border:solid #e7e9fc;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.1);
+    
+}

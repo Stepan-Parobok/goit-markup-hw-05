@@ -650,6 +650,8 @@ header{
     position: absolute;
     top: 24px;
     right: 24px;
+    width: 24px;
+    height: 24px;
     border-radius: 50%;
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -662,6 +664,8 @@ header{
 }
 .modal-form-btn-close:hover,
 .modal-form-btn-close:focus{
+    background-color: #404bbf;
+    border: none;
     background-color: #404bbf;
     border: none;
     
@@ -683,6 +687,7 @@ header{
 .close:hover,
 .close:focus{
     fill: #ffffff;
+    fill: #ffffff;
     
 }
 .overlay-text{
@@ -697,6 +702,9 @@ header{
 }
 .modal-box{
     margin-bottom: 8px;
+    position: relative;
+}
+.modal-box-input-icon{
     position: relative;
 }
 .modal-input{

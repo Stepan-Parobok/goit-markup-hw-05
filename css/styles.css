@@ -679,13 +679,10 @@ header{
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
 
-.close:hover,
-.close:focus{
+.modal-form-btn-close:hover,
+.modal-form-btn-close:focus{
     fill: #ffffff;
     fill: #ffffff;
     
@@ -706,6 +703,7 @@ header{
 }
 .modal-box-input-icon{
     position: relative;
+    margin-bottom: 8px;
 }
 .modal-input{
     width: 100%;
@@ -745,7 +743,9 @@ header{
 .textarea:hover{
     border-color: #4D5AE5;
 }
-
+.overlay-icon:hover{
+   fill:  #4d5ae5; 
+}
 .policy-accent{
     width: 16px;
     height: 16px;
@@ -757,13 +757,13 @@ header{
     justify-content: center;
     fill: transparent;
 }
-input:checked span{
+ input:checked, .policy-accent:active{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
 .policy-link{
-    color: #4d5ae5;;
+    color: #4d5ae5;
 }
 .modal-form-btn-send{
     display: block;
@@ -771,16 +771,20 @@ input:checked span{
     height: 56px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    weight: 500;
+    padding: 16px 32px;
+    align-items: center;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
+    border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.checkbox-icon{
 
+}
 .modal-checkbox{
     margin-bottom: 24px;
 }

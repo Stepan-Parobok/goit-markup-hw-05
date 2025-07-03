@@ -569,14 +569,14 @@ header{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 .footer-form{
     display: flex;
 }
 .footer-form {
     gap: 24px;
-    margin-left: 56px;
+    margin-left: 60px;
 }
 .footer-form-input{
     border: 1px solid #ffffff;

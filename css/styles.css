@@ -746,8 +746,10 @@ header{
 .textarea:hover{
     border-color: #4D5AE5;
 }
-.overlay-icon:hover{
-   fill:  #4d5ae5; 
+
+
+.modal-box-input-icon:focus-within{
+    fill: #4D5AE5;
 }
 .policy-accent{
     width: 16px;

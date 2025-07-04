@@ -661,6 +661,7 @@ header{
     justify-content: center;
     align-items: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .modal-form-btn-close:hover,
 .modal-form-btn-close:focus{
@@ -679,7 +680,9 @@ header{
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.overlay-icon-close{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .modal-form-btn-close:hover,
 .modal-form-btn-close:focus{
@@ -757,10 +760,13 @@ header{
     justify-content: center;
     fill: transparent;
 }
- input:checked, .policy-accent:active{
+ input:checked + label >span{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+.policy-accent{
+    margin-right: 8px;
 }
 .policy-link{
     color: #4d5ae5;
@@ -780,10 +786,13 @@ header{
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox-icon{
-
+.modal-form-btn-send:hover,
+.modal-form-btn-send:focus{
+    background-color: #404bbf;
 }
 .modal-checkbox{
     margin-bottom: 24px;
